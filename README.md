@@ -68,15 +68,15 @@ To contribute to our Tech-Quiz:
                 <label for="">your_option1</label>
             </div>
             <div class="option">
-                <input type="radio" name="q6" id="Q.no." value="B">
+                <input type="radio" name="q6" id="" value="B">
                 <label for="">your_option2</label>
             </div>
             <div class="option">
-                <input type="radio" name="q6" id="Q.no." value="C">
+                <input type="radio" name="q6" id="" value="C">
                 <label for="">your_option3</label>
             </div>
             <div class="option">
-                <input type="radio" name="q6" id="Q.no." value="D">
+                <input type="radio" name="q6" id="" value="D">
                 <label for="">your_option4</label>
             </div>
         </div>
