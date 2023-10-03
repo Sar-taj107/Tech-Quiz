@@ -52,7 +52,8 @@ To contribute to our Tech-Quiz:
 
 1. Go to index.html
 2. Copy paste the question template code to modify it.
-3. Add any question related to js or WebDev > set only four options 
+3. Before add your question please check the last updated file then add question no. accordingly. 
+4. Add any question related to js or WebDev > set only four options 
 
 '''
 
