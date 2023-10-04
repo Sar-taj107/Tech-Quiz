@@ -52,7 +52,8 @@ To contribute to our Tech-Quiz:
 
 1. Go to index.html
 2. Copy paste the question template code to modify it.
-3. Add any question related to js or WebDev > set only four options 
+3. Before add your question please check the last updated file then add question no. accordingly. 
+4. Add any question related to js or WebDev > set only four options 
 
 '''
 
@@ -84,8 +85,19 @@ To contribute to our Tech-Quiz:
 '''
 
 4. Save the index.html file.
+5. Now goto script.js file
+6. just do one change add the correct option in the first line of script.js file 
+   
 
-5. **Commit Your Changes:** Commit your changes with a descriptive commit message. 💬
+'''    
+
+      const correctAnswer = ["D", "B", "C", "B", "D", "A","add-your-correct-option"];
+
+'''
+
+7.save the js file & you all done!
+
+8. **Commit Your Changes:** Commit your changes with a descriptive commit message. 💬
 
    ```bash
    
@@ -93,7 +105,7 @@ To contribute to our Tech-Quiz:
    
    ```
 
-6. **Push to Your Fork:** Push your changes to your GitHub fork. 🚀
+9. **Push to Your Fork:** Push your changes to your GitHub fork. 🚀
 
    ```bash
    
