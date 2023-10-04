@@ -52,7 +52,8 @@ To contribute to our Tech-Quiz:
 
 1. Go to index.html
 2. Copy paste the question template code to modify it.
-3. Add any question related to js or WebDev > set only four options 
+3. Before add your question please check the last updated file then add question no. accordingly. 
+4. Add any question related to js or WebDev > set only four options 
 
 '''
 
@@ -85,38 +86,16 @@ To contribute to our Tech-Quiz:
 
 4. Save the index.html file.
 5. Now goto script.js file
-6. just do some change..
-7. ex: if you add question 9
-    then add correct-option, form.q9.value , ${score}/9! in the given respective place!
+6. just do one change add the correct option in the first line of script.js file 
+   
 
 '''    
 
       const correctAnswer = ["D", "B", "C", "B", "D", "A","add-your-correct-option"];
-      const form = document.querySelector(".quiz-form");
-      const result = document.querySelector(".result");
-      const questions=document.querySelectorAll(".question");
-
-      form.addEventListener("submit", event => {
-         event.preventDefault();
-
-          let score=0;
-          const userAnswers = [form.q1.value, form.q2.value, form.q3.value, form.q4.value, form.q5.value, form.q6.value, form.qno.value];   
-
-          userAnswers.forEach((answer, index) => {
-              if(answer === correctAnswer[index]){
-              score += 1;
-              questions[index].classList.add("correct"); 
-              } else {
-              questions[index].classList.add("wrong");
-          }
-          });
-    
-          scrollTo(0,0);
-          result.classList.remove("hide");
-          result.querySelector("p").textContent = `You scored ${score}/your_ques_no.!`;
-      });
 
 '''
+
+7.save the js file & you all done!
 
 8. **Commit Your Changes:** Commit your changes with a descriptive commit message. 💬
 
