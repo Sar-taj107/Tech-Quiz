@@ -140,3 +140,7 @@
     background-color: #c3db50;
     cursor: pointer;
 }
+
+.correct-option {
+    background-color: #b2efcb;
+}
