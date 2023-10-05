@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css");
 
-:root{
+:root {
     --box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
@@ -21,7 +21,7 @@
     
 } */
 
-.quiz{
+.quiz {
     position: absolute;
     top: 0;
     left: 0;
@@ -33,33 +33,36 @@
 }
 
 @keyframes pulse {
-    0%, 100% {
+
+    0%,
+    100% {
         background-position: 0 50%;
     }
+
     50% {
         background-position: 100% 50%;
     }
 }
 
-.heading{
+.heading {
     margin: 10px auto 40px auto;
 }
 
-.heading .title{
+.heading .title {
     font-size: 30px;
     color: #ffffff;
     font-weight: 500;
     text-align: center;
 }
 
-.heading .subtitle{
+.heading .subtitle {
     font-size: 20px;
     color: #ffffff;
     font-weight: 300;
     text-align: center;
 }
 
-.result{
+.result {
     text-align: center;
     min-width: 350px;
     max-width: 400px;
@@ -70,15 +73,15 @@
     box-shadow: var(--box-shadow);
 }
 
-.result p:first-child{
+.result p:first-child {
     padding: 10px 20px;
 }
 
-.hide{
+.hide {
     display: none;
 }
 
-.reload button{
+.reload button {
     background-color: #169090;
     color: #ffffff;
     padding: 10px 20px;
@@ -87,17 +90,17 @@
     border: 0px;
 }
 
-.reload button:hover{
+.reload button:hover {
     background-color: #38c08e;
     cursor: pointer;
 }
 
-.quiz-form{
+.quiz-form {
     max-width: 1000px;
     margin: auto;
 }
 
-.question{
+.question {
     background-color: #ffffff;
     padding: 10px 20px;
     border-radius: 10px;
@@ -105,7 +108,7 @@
     box-shadow: var(--box-shadow);
 }
 
-.question > * {
+.question>* {
     font-size: 18px;
 }
 
@@ -113,15 +116,15 @@
     margin-left: 10px;
 }
 
-.correct{
+.correct {
     background-color: #b2efcb;
 }
 
-.wrong{
+.wrong {
     background-color: #f2c8c8;
 }
 
-.submit{
+.submit {
     text-align: center;
     margin: 30px 0px;
 }
@@ -136,7 +139,7 @@
     border: 0px;
 }
 
-.submit input:hover{
+.submit input:hover {
     background-color: #c3db50;
     cursor: pointer;
 }

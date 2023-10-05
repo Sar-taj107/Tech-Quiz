@@ -1,6 +1,9 @@
 
-const correctAnswer = ["D", "B", "C", "B", "D", "A", "B", "D", "A", "B"];
-const correctOptions = ["D", "B", "C", "B", "D", "A", "B", "D", "A", "B"];
+
+
+const correctAnswer = ["D", "B", "C", "B", "D", "A", "B", "D", "A", "B", "A", "C"];
+const correctOptions = ["D", "B", "C", "B", "D", "A", "B", "D", "A", "B", "A", "C"];
+
 const form = document.querySelector(".quiz-form");
 const result = document.querySelector(".result");
 const questions = document.querySelectorAll(".question");
@@ -13,7 +16,6 @@ form.addEventListener("submit", (event) => {
     ...document.querySelectorAll("input[type=radio]:checked"),
   ].map((el) => el.value);
 
-    
   userAnswers.forEach((answer, index) => {
     if (answer === correctAnswer[index]) {
       score += 1;
@@ -21,7 +23,6 @@ form.addEventListener("submit", (event) => {
     } else {
       questions[index].classList.add("wrong");
 
-    
       // Find the correct option and highlight it
       const options = questions[index].querySelectorAll(".option");
       options.forEach((option) => {
@@ -31,7 +32,6 @@ form.addEventListener("submit", (event) => {
         }
       });
     }
-    
   });
 
   scrollTo(0, 0);
