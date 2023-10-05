@@ -121,7 +121,17 @@ To contribute to our Tech-Quiz:
 ## Like the Repository! ⭐️
 
 As a first step, please consider giving our repository a ⭐️ to show your support! 🌟
+## + Follow Me : } Quick Approval of Pull Request
 
+```py
+'''
+To get approval of the pull request much quicker and faster (`Follow Me`)🚀
+'''
+```
 Happy contributing and all the best for hacktoberfest! 💻📚🚗
 
 ⭐️Don't make any other changes in the code! If you find any bug or have a feature suggestion, feel free to raise an issue.
+
+<tr><td align="center"><a href="https://github.com/Sar-taj107"><kbd><img src="https://avatars3.githubusercontent.com/Sar-taj107?size=100" width="100px;" alt=""/></kbd><br /><sub><b>Md Tajuddin</b></sub></a><br /></td>
+
+</tr>
