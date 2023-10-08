@@ -14,6 +14,12 @@ A month-long celebration from October 1st to October 31st presented by Digital O
 
 https://hacktoberfest.com/
 
+ ## Our Contributors
+
+ <a href="https://github.com/Sar-taj107/Tech-Quiz/graphs/contributors">
+   <img src="https://contrib.rocks/image?repo=Sar-taj107/Tech-Quiz" />
+ </a>
+
 # Note 🔥
 1. To qualify for digital rewards by Hacktoberfest, you must register for the event and make four Pull Requests (PRs) between October 1-31, 2023 (in any time zone).
 
