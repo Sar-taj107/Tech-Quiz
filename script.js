@@ -1,6 +1,6 @@
 
-const correctAnswer = ["D", "B", "C", "B", "D", "A", "B", "D", "A", "B", "A", "C", "B", "C", "D"];
-const correctOptions = ["D", "B", "C", "B", "D", "A", "B", "D", "A", "B", "A", "C", "B", "C", "D"];
+const correctAnswer = ["D", "B", "C", "B", "D", "A", "B", "D", "A", "B", "A", "C", "B", "C", "D", "C"];
+const correctOptions = ["D", "B", "C", "B", "D", "A", "B", "D", "A", "B", "A", "C", "B", "C", "D", "C"];
 
 const form = document.querySelector(".quiz-form");
 const result = document.querySelector(".result");
