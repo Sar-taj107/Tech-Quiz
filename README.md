@@ -14,7 +14,9 @@ A month-long celebration from October 1st to October 31st presented by Digital O
 
 https://hacktoberfest.com/
 
- ## A BIG Thanks To Our Contributors :handshake: :handshake:
+ ## A BIG Thanks To Our Contributors :handshake: :handshake:]
+ [![Contributors](https://img.shields.io/github/contributors/Sar-taj107/Tech-Quiz)](https://github.com/Sar-taj107/Tech-Quiz/graphs/contributors)
+
  <a href="https://github.com/Sar-taj107/Tech-Quiz/graphs/contributors">
    <img src="https://contrib.rocks/image?repo=Sar-taj107/Tech-Quiz" />
  </a>
