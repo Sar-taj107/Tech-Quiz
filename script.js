@@ -5,6 +5,7 @@ const correctOptions = ["D", "B", "C", "B", "D", "A", "B", "D", "A", "B", "A", "
 const form = document.querySelector(".quiz-form");
 const result = document.querySelector(".result");
 const questions = document.querySelectorAll(".question");
+const messageElement = document.getElementById("message");
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
@@ -38,4 +39,14 @@ form.addEventListener("submit", (event) => {
   result.querySelector(
     "p"
   ).textContent = `You scored ${score}/${userAnswers.length}!`;
+
+if (score === userAnswers.length) {
+  messageElement.textContent = "Excellent!";
+} else if (score >= Math.floor(userAnswers.length * 0.7)) {
+  messageElement.textContent = "Good!";
+} else if (score >= Math.floor(userAnswers.length * 0.5)) {
+  messageElement.textContent = "Average!";
+} else {
+  messageElement.textContent = "Try Once more!";
+}
 });
