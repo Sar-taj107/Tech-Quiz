@@ -71,7 +71,7 @@ To contribute to our Tech-Quiz:
         <div class="question">
             <p>6. ----insert your Question here -----</p>
             <div class="option">
-                <input type="radio" name="q6" id="" value="A" checked>
+                <input type="radio" name="q6" id="" value="A">
                 <label for="">your_option1</label>
             </div>
             <div class="option">
@@ -85,6 +85,11 @@ To contribute to our Tech-Quiz:
             <div class="option">
                 <input type="radio" name="q6" id="" value="D">
                 <label for="">your_option4</label>
+            </div>
+
+            <div class="option" hidden>
+                <input type="radio" name="q6" id="" value="E" checked>
+                <label for="">Hidden</label>
             </div>
         </div>
 
