@@ -47,6 +47,6 @@ if (score === userAnswers.length) {
 } else if (score >= Math.floor(userAnswers.length * 0.5)) {
   messageElement.textContent = "Average!";
 } else {
-  messageElement.textContent = "Try Again!";
+  messageElement.textContent = "Try Once more!";
 }
 });
