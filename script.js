@@ -1,8 +1,5 @@
-
-
-
-const correctAnswer = ["D", "B", "C", "B", "D", "A", "B", "D", "A", "B", "A", "C", "B"];
-const correctOptions = ["D", "B", "C", "B", "D", "A", "B", "D", "A", "B", "A", "C", "B"];
+const correctAnswer =  ["D", "B", "C", "B", "D", "A", "B", "D", "A", "B", "A", "C", "B", "C", "D", "C", "B", "C", "A", "C", "C","B","D"];
+const correctOptions = ["D", "B", "C", "B", "D", "A", "B", "D", "A", "B", "A", "C", "B", "C", "D", "C", "B", "C", "A", "C", "C","B","D"];
 
 const form = document.querySelector(".quiz-form");
 const result = document.querySelector(".result");
@@ -41,13 +38,13 @@ form.addEventListener("submit", (event) => {
     "p"
   ).textContent = `You scored ${score}/${userAnswers.length}!`;
 
-  if (score === userAnswers.length) {
-    messageElement.textContent = "Excellent!";
-  } else if (score >= Math.floor(userAnswers.length * 0.7)) {
-    messageElement.textContent = "Good!";
-  } else if (score >= Math.floor(userAnswers.length * 0.5)) {
-    messageElement.textContent = "Average!";
-  } else {
-    messageElement.textContent = "Try Again!";
-  }
+if (score === userAnswers.length) {
+  messageElement.textContent = "Excellent!";
+} else if (score >= Math.floor(userAnswers.length * 0.7)) {
+  messageElement.textContent = "Good!";
+} else if (score >= Math.floor(userAnswers.length * 0.5)) {
+  messageElement.textContent = "Average!";
+} else {
+  messageElement.textContent = "Try Once more!";
+}
 });
