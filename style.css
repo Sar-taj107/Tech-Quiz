@@ -14,6 +14,11 @@
     text-decoration: none;
     list-style: none;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
 /* .quiz{
     background-color: #5ad260;
     padding: 30px;
@@ -162,4 +167,21 @@
 
 .question:hover{
     border: 2px solid rgb(15, 15, 15);
+}
+
+#scrolltoTop{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px; 
+    z-index: 99;
+    cursor: pointer; 
+    border-radius: 10px;
+    border: 2px solid black; 
+    font-size: 20px;
+    font-weight: bold;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 2rem;
+    transition: all 1s ease;
 }
