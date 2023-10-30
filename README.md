@@ -71,25 +71,25 @@ To contribute to our Tech-Quiz:
         <div class="question">
             <p>6. ----insert your Question here -----</p>
             <div class="option">
-                <input type="radio" name="q6" id="" value="A">
-                <label for="">your_option1</label>
+                <input type="radio" name="q6" id="q6A" value="A">
+                <label for="q6A">your_option1</label>
             </div>
             <div class="option">
-                <input type="radio" name="q6" id="" value="B">
-                <label for="">your_option2</label>
+                <input type="radio" name="q6" id="q6B" value="B">
+                <label for="q6B">your_option2</label>
             </div>
             <div class="option">
-                <input type="radio" name="q6" id="" value="C">
-                <label for="">your_option3</label>
+                <input type="radio" name="q6" id="q6C" value="C">
+                <label for="q6C">your_option3</label>
             </div>
             <div class="option">
-                <input type="radio" name="q6" id="" value="D">
-                <label for="">your_option4</label>
+                <input type="radio" name="q6" id="q6D" value="D">
+                <label for="q6D">your_option4</label>
             </div>
 
             <div class="option" hidden>
-                <input type="radio" name="q6" id="" value="E" checked>
-                <label for="">Hidden</label>
+                <input type="radio" name="q6" id="q6E" value="E" checked>
+                <label for="q6E">Hidden</label>
             </div>
         </div>
 
